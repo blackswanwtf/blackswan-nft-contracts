@@ -1,14 +1,15 @@
-# WeeklyExclusiveNFT Contract
+# WeeklyExclusiveNFT Contract - "Nuked Markets"
 
-A soulbound NFT contract (not yet deployed) that implements a one-per-wallet minting system with upgradeable functionality.
+A soulbound NFT contract deployed on Base mainnet that implements a one-per-wallet minting system with upgradeable functionality. This is the first weekly exclusive NFT drop featuring "Nuked Markets".
 
 ## Contract Details
 
-- **Network**: Not yet deployed
-- **Implementation Address**: Not deployed
-- **Proxy Address**: Not deployed
+- **Network**: Base Mainnet
+- **Implementation Address**: `0x7ba66e2e300d642a3b758808e169c095d9f66acc`
+- **Proxy Address**: `0xe651d009073960d064f339b76c08aade8574f7f3`
 - **Standard**: ERC721 (Upgradeable)
 - **Version**: 1.0.0
+- **Collection Name**: Nuked Markets
 
 ## Features
 
@@ -158,12 +159,12 @@ uint256 supply = contract.totalSupply();
 
 ## Deployment Information
 
-This contract is not yet deployed. When deployed, it will use a proxy pattern:
+The "Nuked Markets" contract is deployed using a proxy pattern:
 
-- **Proxy Contract**: To be determined
-- **Implementation Contract**: To be determined
+- **Proxy Contract**: `0xe651d009073960d064f339b76c08aade8574f7f3`
+- **Implementation Contract**: `0x7ba66e2e300d642a3b758808e169c095d9f66acc`
 
-Users will interact with the proxy address, which forwards calls to the implementation contract.
+Users interact with the proxy address, which forwards calls to the implementation contract.
 
 ## License
 
